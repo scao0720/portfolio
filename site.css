@@ -1,0 +1,58 @@
+h1 {
+  font-variant: small-caps;
+  text-align: left;
+}
+
+h2 {
+  font-variant: small-caps;
+  text-align: right;
+}
+
+body {
+  background-color: teal;
+}
+p.landing {
+    font-style: normal;
+    font-size: 80%;
+    text-align: left;
+}
+
+div.main {
+  width: 75%;
+  /*height: 100%;*/
+  margin: auto;
+  /*border-style: none groove none groove;*/
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+}
+
+#blurb {
+  padding: 10px 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  padding: 15px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.date {
+  font-weight: bold;
+}
