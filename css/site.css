@@ -91,3 +91,44 @@ h3.date {
 footer {
   clear:both;
 }
+
+.img-portfolio {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.vimg-portfolio {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+/*#outer {
+max-width: 906px;
+max-height: 569px;
+width: 75%;
+height: 75%%;
+}
+
+#inner {
+    height: 0px;
+    padding-bottom: 56.25%;
+}
+
+#inner iframe{
+    width: 100%;
+    height: 100%;
+    width="960" height="569"
+}*/
+
+#bold {
+  font-weight: bold;
+  color: #008080;
+}
