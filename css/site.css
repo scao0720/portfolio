@@ -110,6 +110,28 @@ footer {
   margin-bottom: 25px;
 }
 
+.simg-portfolio {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.vid-portfolio {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.vid-blocks {
+  text-align: center;
+}
+
 /*#outer {
 max-width: 906px;
 max-height: 569px;
@@ -131,4 +153,8 @@ height: 75%%;
 #bold {
   font-weight: bold;
   color: #008080;
+}
+
+#italic {
+  font-style: italic;
 }
