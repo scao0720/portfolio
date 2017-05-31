@@ -56,32 +56,40 @@
     </nav>
     <!-- Page Content -->
     <div class="container">
-      <body>
-        <div class="container">
-          <div class="row">
-              <div class="col-lg-12">
-                  <h1 class="page-header">Physical Prototypes<br>
-                  <small>Coming soon!</small>
-              </div>
+      <div class="row">
+          <div class="col-lg-12">
+              <h1 class="page-header">Physical Prototypes<br>
+              <small>Sep 2015 – Mar 2016</small>
           </div>
-        <!--   <div class="col-lg-12">
-        <h2>Project Overview</h2>
-        <p></p>
-        <p></p>
-        <h2>My role</h2>
-        <p></p>
-        <p></p>
-        <h2>Challenges</h2><p></p>
-        <p></p>
-        <p></p>
-        <h2>Toolkit</h2>
-        <ul>
-          <li>Arduino hardware and software</li>
-            <li>Adafruit hardware</li>
-              <li>Sewing</li>
-                <li>Soldering</li>
-              </ul> -->
-        <!-- <hr> -->
+      </div>
+      <div class="col-lg-12">
+        <h2>The Smart Yard</h2>
+          <p>The smart yard project consisted of two systems built into a diorama modeled after my own home. The first was an automatic dog door that opened when it was magnetically triggered - something that could be integrated into a dog's collar. The door would close after 10 seconds, and could be opened again from the outside as well. The second was an alarm system that would track when the back door, window, or dog door was opened. When set, it would set off alarm lights and noises when any of the three were opened.</p>
+          <h3>Challenges</h3>
+          <p><span id="bold">Learning electronics:</span> This was my first foray into designing and building an electronics project. I had a steep learning curve, but found that I loved combining the different parts and figuring out how to make it all work together.</p>
+          <p><span id="bold">Troubleshooting:</span> There were many nights of frustration as I tried to figure out what was wrong with all the different moving parts of the Smart Yard. Most notable, it had an issue with the wifi module that connected to a larger system to trigger specific emergency events. We tested a variety of signals, creating an A/B test for what could be wrong.</p>
+          <div class="vid-blocks">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/a14QvAdiki8" frameborder="0" allowfullscreen></iframe>
+          </div>
+        <h2>Sound-Reactive Tie</h2>
+          <p>The second project was a sound-reactive wearable tie. It would measure the amount of ambient noise through a microphone in the knot, and then lght up a certain amount of sewn wearable LEDs. I sewed a Flora Arduino microcontroller into the bottom of the tie, and connected everything with conductive thread and a single length of ribbon cable.</p>
+          <h3>Challenges</h3>
+          <p><span id="bold">Troubleshooting:</span> After sewing everything in place and soldering the ribbon to the board, I couldn't get the LEDs to light up correctly. It seemed like some of my wires were crossed, which caused a surge in the lights from time to time. First, I checked each LED and microphone with a multimeter but that seemed to work fine. Second, I checked my code, tweaked the sensitivity on the inputs and cleaned up what wasn't needed. Finally, after nothing else seemed to work, I added a backbone to the tie that would keep the wires from bending. That reduced the twisting pressure on the wires and allowed the tie to work correctly.</p>
+          <div class="vid-blocks">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/RK1P6zBueVI" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <h2>Toolkit</h2>
+          <ul>
+            <li>Arduino hardware and software</li>
+            <li>Adafruit hardware: neopixels, Flora board</li>
+            <li>Sewing</li>
+            <li>Soldering</li>
+            <li>Circuit planning</li>
+          </ul>
+      </div>
+      <hr>
+
+<!-- Pagination -->
         <div class="row text-center">
           <div class="col-lg-12">
             <ul class="pagination">
@@ -98,7 +106,7 @@
           </div>
         </div>
 
-        <!-- Footer -->
+<!-- Footer -->
         <footer>
         <hr>
           <div class="row">
